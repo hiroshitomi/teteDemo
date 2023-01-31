@@ -28,6 +28,10 @@ a{
     width: 95%;
 }
 
+.margin-main {
+    margin-top: 8rem;
+}
+
 .img-size{
     width: 8rem;
 }
@@ -88,7 +92,7 @@ a{
 
 .card {
     background-color: #dbc0ff;
-    width: 12rem;
+    width: 11rem;
     box-shadow: 5px 6px 6px rgba(26, 25, 25, 0.449);
 }
 
