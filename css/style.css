@@ -32,6 +32,14 @@ a{
     margin-top: 8rem;
 }
 
+.offcanvas {
+    --bs-offcanvas-bg: #15042d;
+}
+
+.offcanvas-title {
+    color: #dbc0ff;
+}
+
 .img-size{
     width: 8rem;
 }
