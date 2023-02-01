@@ -31,33 +31,45 @@
             <div class="container-fluid nav-width">
                 <a href="../index.html"><img src="../resources/logoTete.png" class="img-fluid img-size"
                         alt="Tete Clothes"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Productos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Ropa Interior (Proximamente...)</a></li>
-                                <li><a class="dropdown-item" href="#">Camisones (Proximamente...)</a></li>
-                                <li><a class="dropdown-item" href="#">Pijamas (Proximamente...)</a></li>
+
+                <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+                    aria-labelledby="staticBackdropLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="staticBackdropLabel">TeteClotes</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Productos
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Ropa Interior (Proximamente...)</a></li>
+                                        <li><a class="dropdown-item" href="#">Camisones (Proximamente...)</a></li>
+                                        <li><a class="dropdown-item" href="#">Pijamas (Proximamente...)</a></li>
+                                    </ul>
+                                </li>
                             </ul>
-                        </li>
-                    </ul>
-                    <input class="input-control me-2" id="inputSearch" type="search" placeholder="Buscar..." aria-label="Search">
+                        </div>
+                    </div>
                 </div>
-                <button class="btn btn-outline" type="submit"><a href="../pages/carrito.html"><i class="bi bi-cart"></i></a></button>
+
+
+                <button class="btn btn-outline" type="submit"><a href="./pages/carrito.html"><i
+                            class="bi bi-cart"></i></a></button>
             </div>
-            
+
         </nav>
 
     </header>
